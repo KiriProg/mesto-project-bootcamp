@@ -1,0 +1,17 @@
+.place__like {
+    width: 22px;
+    height: 19px;
+    justify-self: end;
+    margin: auto 20px auto 0;
+    grid-area: like;
+    transition: opacity .5s;
+    overflow: hidden;
+}
+
+.place__like:hover {
+    opacity: 0.5;
+}
+
+.place__like:active {
+    background-image: url("../../../images/like-active.svg");
+}

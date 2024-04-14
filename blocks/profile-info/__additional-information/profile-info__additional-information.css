@@ -1,0 +1,18 @@
+.profile-info__additional-information {
+    color: white;
+    font-family: 'Inter', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: normal;
+    grid-area: additional-information;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-info__additional-information {
+        font-size: 14px;
+        align-self: start;
+        justify-self: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.popup__form-title {
+    font-family: Inter, serif;
+    font-weight: 900;
+    color: black;
+    margin: 34px auto 54px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__form-title {
+        font-size: 18px;
+    }
+}

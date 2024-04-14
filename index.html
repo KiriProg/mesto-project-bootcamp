@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Место</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="images/logo.svg" alt="лого">
+    </header>
+
+    <main class="content">
+        <section class="profile">
+            <div class="profile__main-info">
+                <img class="profile__avatar" src="images/avatar.jpg" alt="аватар">
+                <div class="profile-info">
+                    <button class="profile-info__edit-button">
+                        <img class="profile-info__edit-button-image" src="images/edit-button.svg" alt="изменить">
+                    </button>
+                    <p class="profile-info__nickname">Жак-Ив Кусто</p>
+                    <p class="profile-info__additional-information">Исследователь океана</p>
+                </div>
+            </div>
+            <button class="profile__add-button">
+                <img class="profile__add-button-image" src="images/add-button.svg" alt="добавить">
+            </button>
+        </section>
+
+        <section>
+            <ul class="places">
+                <li class="place place_image_karachaevsk">
+                    <h2 class="place__title">Карачаевск</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+
+                <li class="place place_image_elbrus">
+                    <h2 class="place__title">Гора эльбрус</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+
+                <li class="place place_image_dombai">
+                    <h2 class="place__title">Домбай</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+
+                <li class="place place_image_elbrus">
+                    <h2 class="place__title">Гора эльбрус</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+
+                <li class="place place_image_dombai">
+                    <h2 class="place__title">Домбай</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+
+                <li class="place place_image_karachaevsk">
+                    <h2 class="place__title">Карачаево-Черкесия</h2>
+                    <img class="place__like" src="images/like.svg" alt="лайк">
+                </li>
+            </ul>
+        </section>
+        <section class="popup">
+            <div class="popup__container">
+                <form class="popup__form">
+                    <h2 class="popup__form-title">Редактировать профиль</h2>
+                    <input class='popup__form-item' name='nickname' type='text'
+                           value='Жак-Ив Кусто' required>
+                    <input class='popup__form-item'
+                           name='additional-information' type='text' value='Исследователь океана' required>
+                    <input class='popup__form-button' type='submit' value="Сохранить">
+                </form>
+                <img class="popup__close-icon" src="images/close-icon.svg" alt="закрыть">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyrighting">&copy; 2020 Mesto Russia</p>
+    </footer>
+</body>
+</html>

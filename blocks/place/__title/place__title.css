@@ -1,0 +1,10 @@
+.place__title {
+    font-family: Inter, serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    grid-area: text;
+    margin: auto 0 auto 21px;
+}
