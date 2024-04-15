@@ -1,13 +1,14 @@
 .popup__form-title {
-    font-family: Inter, serif;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     font-weight: 900;
     color: black;
     margin: 34px auto 54px;
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .popup__form-title {
         font-size: 18px;
+        margin: 27px auto 75px;
     }
 }

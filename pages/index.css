@@ -1,5 +1,6 @@
-@import "../vendor/normolize.css";
+@import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
+@import "../variables/variables.css";
 
 @import "../blocks/page/page.css";
 
@@ -12,12 +13,12 @@
 @import "../blocks/profile/__avatar/profile__avatar.css";
 @import "../blocks/profile/__add-button/profile__add-button.css";
 @import "../blocks/profile/__main-info/profile__main-info.css";
-
-@import "../blocks/profile-info/profile-info.css";
-@import "../blocks/profile-info/__nickname/profile-info__nickname.css";
-@import "../blocks/profile-info/__additional-information/profile-info__additional-information.css";
-@import "../blocks/profile-info/__edit-button/profile-info__edit-button.css";
-@import "../blocks/profile-info/__edit-button-image/profile-info__edit-button-image.css";
+@import "../blocks/profile/__profile-info/profile__profile-info.css";
+@import "../blocks/profile/__nickname/profile__nickname.css";
+@import "../blocks/profile/__additional-information/profile__additional-information.css";
+@import "../blocks/profile/__edit-button/profile__edit-button.css";
+@import "../blocks/profile/__edit-button-image/profile__edit-button-image.css";
+@import "../blocks/profile/__add-button-image/profile__add-button-image.css";
 
 @import "../blocks/places/places.css";
 @import "../blocks/place/place.css";

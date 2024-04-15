@@ -1,19 +1,20 @@
 .header {
-    border-bottom: 1px solid rgba(84, 84, 84, .8);
+    border-bottom: 1px solid rgba(84, 84, 84, .9);
     max-width: var(--max-width);
     margin: 45px auto 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .header {
-       padding-left: 27px;
+        padding-left: 28px;
         width: 100%;
         margin: 28px auto 42px;
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
     .header {
         margin: 28px 0 42px;
+        max-width: 100%;
     }
 }

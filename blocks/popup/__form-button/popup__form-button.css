@@ -3,8 +3,8 @@
     height: 50px;
     color: white;
     background-color: black;
-    font-family: Inter, serif;
-    font-weight: 300;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-weight: 400;
     font-size: 18px;
     padding: 0;
     border: none;
@@ -13,10 +13,10 @@
 }
 
 .popup__form-button:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .popup__form-button {
         width: 238px;
         height: 46px;

@@ -1,7 +1,14 @@
 .footer__copyrighting {
     color: #545454;
-    font-family: Inter, serif;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     font-size: 18px;
+    font-weight: 400;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .footer__copyrighting {
+        font-size: 14px;
+    }
 }

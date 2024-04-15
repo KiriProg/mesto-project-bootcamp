@@ -1,6 +1,6 @@
-.profile-info__nickname {
-    font-family: 'Inter', serif;
-    font-weight: 600;
+.profile__nickname {
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-weight: 500;
     line-height: 48px;
     font-size: 42px;
     grid-area: nickname;
@@ -8,8 +8,8 @@
     margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-    .profile-info__nickname {
+@media screen and (max-width: 650px) {
+    .profile__nickname {
         font-size: 27px;
         align-self: start;
         justify-self: end;

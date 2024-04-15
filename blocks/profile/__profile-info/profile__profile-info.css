@@ -1,25 +1,25 @@
-.profile-info {
+.profile__profile-info {
     max-width: 336px;
     display: grid;
     grid-template-columns: 1fr 24px;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     margin: auto 0 auto 30px;
-    gap: 16px 18px;
+    gap: 10px 18px;
     grid-template-areas: "nickname edit-button"
                          "additional-information additional-information";
 }
 
 @media screen and (max-width: 900px) {
-    .profile-info {
+    .profile__profile-info {
         grid-template-columns: 210px 1fr;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .profile-info {
-        margin: 26px 0 36px;
+@media screen and (max-width: 650px) {
+    .profile__profile-info {
+        margin: 20px 0 32px;
         grid-template-columns: 1fr 37px;
-        gap: 14px 10px;
+        gap: 0 10px;
         width: 282px;
     }
 }

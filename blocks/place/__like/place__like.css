@@ -6,6 +6,9 @@
     grid-area: like;
     transition: opacity .5s;
     overflow: hidden;
+    background-image: url("../../../images/like.svg");
+    border: none;
+    background-color: white;
 }
 
 .place__like:hover {
