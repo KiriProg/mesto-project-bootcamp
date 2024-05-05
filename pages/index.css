@@ -25,9 +25,9 @@
 @import "../blocks/place/__title/place__title.css";
 @import "../blocks/place/__like/place__like.css";
 @import "../blocks/place/__like/_active/place__like_active.css";
-@import "../blocks/place/_image/place_image_dombai.css";
-@import "../blocks/place/_image/place_image_karachaevsk.css";
-@import "../blocks/place/_image/place_image_elbrus.css";
+@import "../blocks/place/__image-container/place__image-container.css";
+@import "../blocks/place/__delete-button/place__delete-button.css";
+@import "../blocks/place/__info/place__info.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__copyrighting/footer__copyrighting.css";
@@ -38,5 +38,15 @@
 @import "../blocks/popup/__close-icon/popup__close-icon.css";
 @import "../blocks/popup/__form-title/popup__form-title.css";
 @import "../blocks/popup/__form-item/popup__form-item.css";
-@import "../blocks/popup/__form-button/popup__form-button.css";
+@import "../blocks/popup/__title/popup__title.css";
 @import "../blocks/popup/_opened/popup_opened.css";
+
+@import "../blocks/popup-edit/__form-button/popup-edit__form-button.css";
+@import "../blocks/popup-edit/__close/popup-edit__close.css";
+
+@import "../blocks/popup-add/__button/popup-add__button.css";
+
+@import "../blocks/popup-image/__image/popup-image__image.css";
+@import "../blocks/popup-image/__content/popup-image__content.css";
+@import "../blocks/popup-image/__close/popup-image__close.css";
+@import "../blocks/popup-image/__text/popup-image__text.css";

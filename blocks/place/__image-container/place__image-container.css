@@ -1,0 +1,5 @@
+.place__image-container {
+    grid-area: container;
+    border-radius: 5%;
+    position: relative;
+}

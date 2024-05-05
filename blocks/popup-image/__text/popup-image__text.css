@@ -1,0 +1,9 @@
+.popup-image__text {
+    color: white;
+    font-family: Inter, 'Arial', sans-serif;
+    margin: 10px 0 0 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-self: start;
+}

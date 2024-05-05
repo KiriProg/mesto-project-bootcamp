@@ -30,53 +30,49 @@
 
         <section>
             <ul class="places">
-                <li class="place place_image_karachaevsk">
-                    <h2 class="place__title">Карачаевск</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
-
-                <li class="place place_image_elbrus">
-                    <h2 class="place__title">Гора Эльбрус</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
-
-                <li class="place place_image_dombai">
-                    <h2 class="place__title">Домбай</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
-
-                <li class="place place_image_elbrus">
-                    <h2 class="place__title">Гора эльбрус</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
-
-                <li class="place place_image_dombai">
-                    <h2 class="place__title">Домбай</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
-
-                <li class="place place_image_karachaevsk">
-                    <h2 class="place__title">Карачаево-Черкесия</h2>
-                    <button class="place__like" type="button"></button>
-                </li>
             </ul>
         </section>
     </main>
+
     <footer class="footer">
-        <p class="footer__copyrighting">&copy; 2020 Mesto Russia</p>
+        <p class="footer__copyrighting">&copy; 2024 Mesto Russia</p>
     </footer>
-    <section class="popup">
+
+    <div class="popup-add popup">
         <div class="popup__container">
-            <form class="popup__form" name="form">
-                <h2 class="popup__form-title">Редактировать профиль</h2>
-                <input class='popup__form-item' name='nickname' type='text'
-                       value='Жак-Ив Кусто' required>
-                <input class='popup__form-item'
-                       name='additional-information' type='text' value='Исследователь океана' required>
-                <button class='popup__form-button' type='submit' value="Сохранить">Сохранить</button>
+            <img src="./images/close-icon.svg" alt="закрыть" class="popup__close-icon">
+            <h3 class="popup__title">Новое место</h3>
+            <form class="popup__form" name="new">
+                <input required type="text" name="name" class="popup__form-item popup__input_type_name"
+                       placeholder="Название">
+                <input required type="url" name="link" class="popup__form-item popup__input_type_link-url"
+                       placeholder="Ссылка на картинку">
+                <button type="submit" class="popup-add__button" value="Сохранить">Сохранить</button>
             </form>
-            <button class="popup__close-icon" type="button"></button>
+        </div>
+    </div>
+
+    <section class="popup-edit popup">
+        <div class="popup__container">
+            <img src="./images/close-icon.svg" alt="закрыть" class="popup-edit__close">
+            <h3 class="popup__title">Редактировать профиль</h3>
+            <form class="popup__form" name="profile">
+                <input required type="text" name="name" class="popup__form-item popup-edit__input-name"
+                       placeholder="Имя">
+                <input required type="text" name="about" class="popup__form-item popup-edit__input-about"
+                       placeholder="О себе">
+                <button type="submit" class="popup-edit__form-button" value="Сохранить">Сохранить</button>
+            </form>
         </div>
     </section>
+
+    <section class='popup-image popup'>
+        <div class='popup-image__content'>
+            <img src="./images/close-icon.svg" alt="закрыть" class="popup-image__close">
+            <img src='' alt='изображение' class="popup-image__image">
+            <span class="popup-image__text"></span>
+        </div>
+    </section>
+    <script src='./index.js'></script>
 </body>
 </html>

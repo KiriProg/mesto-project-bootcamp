@@ -1,0 +1,10 @@
+.place__info {
+    overflow: hidden;
+    background-color: white;
+    grid-area: info;
+    display: grid;
+    grid-template-areas: "text like";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 5%;
+}
