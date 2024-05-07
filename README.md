@@ -8,3 +8,5 @@
 ### Технологии
 Адаптивная вёрстка, БЭМ, формы, флекс и грид вёрстка.
 JS
+
+#### [Ссылка на сайт на GitHub-Pages](https://kiriprog.github.io/mesto-project-bootcamp/)
