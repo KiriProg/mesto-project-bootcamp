@@ -4,6 +4,7 @@
     line-height: 48px;
     font-size: 42px;
     grid-area: nickname;
+    text-align: center;
     color: white;
     margin: 0;
     text-overflow: ellipsis;
